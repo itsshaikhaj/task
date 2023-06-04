@@ -1,0 +1,42 @@
+@import './../../../sass/variables';
+@import './../../../sass/mixins';
+
+
+#chart {
+  max-width: 100%;
+  min-width: 100%;
+  margin: 15px auto;
+  margin-bottom: -13px;
+}
+
+::ng-deep {
+  #chart .apexcharts-toolbar {
+    display: none !important;
+  }
+
+  #chart .apexcharts-legend {
+    position: unset !important;
+    justify-content: end !important;
+  }
+
+  #donutChart .apexcharts-canvas {
+    margin-left: -30px;
+  }
+
+  #donutChart .apexcharts-legend {
+    position: absolute;
+    left: auto;
+    top: 40px !important;
+    right: 5px;
+  }
+}
+
+#donutChart {
+  max-width: 380px;
+  margin: 20px auto;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 5px !important;
+}

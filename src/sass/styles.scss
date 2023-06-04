@@ -1,0 +1,149 @@
+/* You can add global styles to this file, and also import other style files */
+@import './_variables';
+@import './_mixins';
+@import "/node_modules//bootstrap/scss/bootstrap.scss";
+
+
+body {
+  background-color: $color-very-light-gray !important;
+}
+
+.text-white {
+  color: $color-white !important;
+}
+
+.text-success {
+  color: $color-light-green !important;
+}
+
+.text-dark-green {
+  color: $color-dark-green !important;
+}
+
+.text-pink {
+  color: $color-light-pink !important;
+}
+
+
+.text-dark-pink {
+  color: $color-dark-pink !important;
+}
+
+.text-blue {
+  color: $color-dark-blue !important;
+}
+
+.text-light-gray {
+  color: $color-light-gray !important;
+}
+
+.font-weight-600 {
+  font-weight: 600 !important;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+
+.font-weight-400 {
+  font-weight: 400 !important;
+}
+
+
+.txt-white {
+  color: $color-white !important;
+}
+
+.text-gray {
+  color: $color-dark-gray !important;
+}
+
+
+.main-card-white {
+  background-color: $color-white !important;
+  margin-bottom: 10px !important;
+}
+
+.card-bx {
+  border-radius: 10px !important;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 18%) !important;
+}
+
+.btn-primary {
+  @include btn-primary
+}
+
+.btn-secondary {
+  @include btn-secondary;
+  color: $color-light-gray !important;
+  border: none !important;
+
+}
+
+.text-end {
+  align-self: flex-end;
+}
+
+.card-icon-gey {
+  @include card-icon-gey;
+}
+
+.card-icon-contrast-blue {
+  @include card-icon-contrast-blue;
+}
+
+.card-icon-light-grey {
+  @include card-icon-light-grey;
+}
+
+.main-card-blue {
+  @include main-card-blue;
+}
+
+.main-card-white {
+  @include main-card-white;
+}
+
+
+.icon-back {
+  @include icon-back
+}
+
+
+.font-size-12 {
+  font-size: 12px !important;
+}
+
+.font-size-14 {
+  font-size: 14px !important;
+}
+
+.font-size-16 {
+  font-size: 16px !important;
+}
+
+.font-size-18 {
+  font-size: 18px !important;
+}
+
+.font-size-20 {
+  font-size: 20px !important;
+}
+
+h5 {
+  margin: 0px !important;
+}
+
+p {
+  margin: 0px !important;
+}
+
+
+.btn-add-card {
+  @include btn-add-card
+}
+
+img {
+  height: 100% !important;
+  width: 100% !important;
+}

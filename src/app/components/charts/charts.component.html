@@ -1,0 +1,51 @@
+<div class="row">
+  <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+    <div class="card main-card-white">
+      <div class="card-body">
+        <div id="chart">
+          <apx-chart [series]="chartOptions.series" [chart]="chartOptions.chart" [title]="chartOptions.title"
+            [xaxis]="chartOptions.xaxis" [yaxis]="chartOptions.yaxis" [stroke]="chartOptions.stroke"
+            [tooltip]="chartOptions.tooltip" [colors]="chartOptions.colors"
+            [dataLabels]="chartOptions.dataLabels"></apx-chart>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+    <div class="card main-card-white">
+      <div class="card-body">
+        <div id="donutChart">
+          <apx-chart [series]="donutChartOptions.series" [chart]="donutChartOptions.chart"
+            [title]="donutChartOptions.title" [yaxis]="donutChartOptions.yaxis" [colors]="donutChartOptions.colors"
+            [xaxis]="donutChartOptions.xaxis" [labels]="donutChartOptions.labels" [fill]="donutChartOptions.fill"
+            [states]="donutChartOptions.states" [dataLabels]="donutChartOptions.dataLabels"
+            [responsive]="chartOptions.responsive"></apx-chart>
+        </div>
+        <div class="d-flex p-1">
+          <div class="flex-fill">
+            <p class="text-light-gray 12">Daily</p>
+            <h5 class="text-gray font-weight-600">$573.12</h5>
+
+          </div>
+          <div class="flex-fill">
+            <div class="flex-fill">
+              <p class="text-light-gray 12">Weekly</p>
+              <h5 class="text-gray font-weight-600">$4,791</h5>
+
+            </div>
+          </div>
+          <div class="flex-fill">
+            <div class="flex-fill">
+              <p class="text-light-gray 12">Monthly</p>
+              <h5 class="text-gray font-weight-600">$19,112</h5>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>

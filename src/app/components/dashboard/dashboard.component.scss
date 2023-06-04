@@ -1,0 +1,33 @@
+@import './../../../sass/variables';
+@import './../../../sass/mixins';
+
+
+.text-end {
+  align-self: flex-end;
+}
+
+.card-icon-gey {
+  @include card-icon-gey;
+}
+
+.card-icon-light-grey {
+  @include card-icon-light-grey;
+}
+
+.main-card-blue {
+  @include main-card-blue;
+}
+
+.main-card-white {
+  @include main-card-white;
+}
+
+
+.icon-back {
+  @include icon-back
+}
+
+.menu-icon {
+  height: 1.2rem;
+  width: 1.2rem;
+}

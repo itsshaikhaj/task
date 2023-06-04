@@ -1,0 +1,78 @@
+@import './../../../sass/variables';
+@import './../../../sass/mixins';
+
+
+.text-end {
+  align-self: flex-end;
+}
+
+.card-icon-gey {
+  @include card-icon-gey;
+}
+
+.card-icon-light-grey {
+  @include card-icon-light-grey;
+}
+
+.main-card-blue {
+  @include main-card-blue;
+}
+
+.main-card-white {
+  @include main-card-white;
+}
+
+.icon-back {
+  @include icon-back
+}
+
+.border-right-none {
+  border-right: none;
+  border-left : 1px solid $color-dark-blue ;
+  border-top : 1px solid $color-dark-blue ;
+  border-bottom : 1px solid $color-dark-blue ;
+}
+
+.input-group-text {
+  background-color: transparent;
+  border: 1px solid $color-dark-blue;
+}
+
+.btn-add-card {
+  @include btn-add-card
+}
+
+.chip {
+  width: 2rem;
+  height: 2 rem;
+}
+
+.bank-mandiri-logo {
+  width: 100%;
+  height: 1.5rem;
+}
+
+.visa-logo {
+  width: 100%;
+  height: 1.5rem;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.menu-icon {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.card-icon-light-grey {
+  height: 3rem;
+  width: 3rem;
+}
+
+.hide {
+  visibility: hidden;
+}

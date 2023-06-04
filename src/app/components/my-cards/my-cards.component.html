@@ -1,0 +1,190 @@
+<div class="row">
+  <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="card main-card-white">
+      <div class="card-body">
+
+        <div class="d-flex mb-3">
+          <div class="me-auto p-2 font-weight-600 font-size-18">My Cards</div>
+          <div class="p-2">
+            <div class="menu-icon">
+              <img src="./../../../assets/icons/vertical-dots-grey.png" alt="vertical-dots-grey.png">
+            </div>
+          </div>
+        </div>
+
+        <div class="card m-2 main-card-blue">
+          <div class="card-body">
+
+            <div class="d-flex flex-column">
+
+              <div class="d-flex p-1">
+                <div class="me-auto">
+                  <div class="chip">
+                    <img src="./../../assets/icons/chip.png" alt="chip.png">
+                  </div>
+                </div>
+                <div class="text-right">
+                  <div class="bank-mandiri-logo">
+                    <img src="./../../assets/icons/bank-mandiri-seeklogo.com.svg" alt="bank-mandiri-seeklogo.com.svg">
+                  </div>
+
+                </div>
+              </div>
+              <div class="p-1">
+                <span class="text-white">0818 0987 5656 2233</span><br>
+                <span class="text-white">07/10</span>
+
+              </div>
+
+              <div class="align-self-end p-1 d-flex">
+                <div class="visa-logo">
+                  <img src="./../../assets/icons/visa.png" alt="visa.png">
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="card m-2 main-card-white card-bx">
+          <div class="card-body">
+
+            <div class="d-flex flex-column">
+
+              <div class="p-1">
+                <span class="text-light-gray font-weight-600">Your Balance</span>
+              </div>
+
+              <div class="d-flex p-1">
+                <div class="flex-fill">
+                  <h5 class="text-gray font-weight-600">$2190.90</h5>
+                </div>
+                <div class="flex-fill">
+                  <span>
+                    <div>
+                      <span class="text-success font-size-14 font-weight-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-arrow-up" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+                        </svg>
+                        <span>9.4%</span>
+                      </span>
+                    </div>
+                  </span>
+                </div>
+                <div class="flex-fill">
+                  <span>
+                    <div>
+                      <span class="text-pink font-size-14 font-weight-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-arrow-down" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                        </svg>
+                        <span>8.39%</span>
+                      </span>
+                    </div>
+                  </span>
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="d-flex p-1">
+                <div class="flex-fill">
+                  <p class="text-light-gray font-size-14">Currency</p>
+                  <h5 class="text-gray font-weight-600 font-size-14">USD / US Dollar</h5>
+
+                </div>
+                <div class="flex-fill">
+                  <div class="flex-fill">
+                    <p class="text-light-gray font-size-14">Status</p>
+                    <h5 class="text-gray font-weight-600 font-size-14">Active</h5>
+                  </div>
+                </div>
+
+                <div class="flex-fill hide" >
+                  <div class="flex-fill">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="m-2 mt-3">
+          <button class="btn btn-add-card font-weight-500">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 3a.5.5 0 0 1 .5.5v3.5H12a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8.5H4a.5.5 0 0 1 0-1h3.5V3.5A.5.5 0 0 1 8 3z" />
+            </svg>
+            Add New Card
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="card main-card-white">
+      <div class="card-body">
+
+        <div class="d-flex flex-column">
+          <div class="d-flex p-1 font-weight-600">
+            <p class="font-size-18">Quick Transfer</p>
+          </div>
+
+          <div class="p-1">
+            <div class="d-flex justify-content-between">
+              <div class="card-icon-light-grey" *ngFor="let item of avatar; let i=index;">
+                <div class="avatar">
+                  <img *ngIf="i != avatar.length - 1"  src="./../../assets/images/user.jpg" alt="user.jpg">
+                  <svg *ngIf="i == avatar.length - 1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-1">
+            <p class="font-size-14 text-light-gray font-weight-400">Card Number</p>
+          </div>
+          <div class="p-1">
+            <div class="p-1">
+              <div class="input-group">
+                <input type="number" class="form-control border-right-none font-weight-400"
+                  placeholder="1234 5678 1234 1234" aria-label="Right Placeholder" aria-describedby="right-addon">
+                <span class="input-group-text font-weight-600 text-light-gray" id="addon-wrapping">VISA</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-1">
+            <div class="row mt-1">
+              <div class="col-6">
+                <div class="">
+                  <button class="btn btn-primary">
+                    Send Money
+                  </button>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="">
+                  <button class="btn btn-secondary text-light-gray font-weight-400">
+                    Save as Draft
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
